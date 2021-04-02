@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="137" id="oaQ-zg-af3" customClass="HospitalViewCell" customModule="DemoCleanSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oaQ-zg-af3" id="7G7-ej-ZBY">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fwf-sl-rW7">
+                        <rect key="frame" x="8" y="8" width="398" height="121"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iww-hN-ocb">
+                                <rect key="frame" x="0.0" y="0.0" width="398" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tE0-za-uR1">
+                                <rect key="frame" x="0.0" y="43" width="398" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-PN-ZEw">
+                                <rect key="frame" x="0.0" y="86" width="398" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Fwf-sl-rW7" secondAttribute="bottom" constant="8" id="2xO-tc-8RT"/>
+                    <constraint firstAttribute="trailing" secondItem="Fwf-sl-rW7" secondAttribute="trailing" constant="8" id="GkT-bG-1u1"/>
+                    <constraint firstItem="Fwf-sl-rW7" firstAttribute="leading" secondItem="7G7-ej-ZBY" secondAttribute="leading" constant="8" id="Zte-Aj-Fb1"/>
+                    <constraint firstItem="Fwf-sl-rW7" firstAttribute="top" secondItem="7G7-ej-ZBY" secondAttribute="top" constant="8" id="aCh-lk-O5a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblHospitalID" destination="iww-hN-ocb" id="FmJ-rI-hXH"/>
+                <outlet property="lblHospitalLocation" destination="aHV-PN-ZEw" id="v4P-ZS-OnM"/>
+                <outlet property="lblHospitalName" destination="tE0-za-uR1" id="5qD-fe-3qK"/>
+            </connections>
+            <point key="canvasLocation" x="-197" y="-61"/>
+        </tableViewCell>
+    </objects>
+</document>

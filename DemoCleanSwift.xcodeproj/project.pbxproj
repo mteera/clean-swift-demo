@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EEA60AE332F9AA3966A1170 /* Pods_DemoCleanSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6A76B3A724237080E2412E /* Pods_DemoCleanSwift.framework */; };
 		DF0FA7AC2615C04D00F21F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA7AB2615C04D00F21F75 /* AppDelegate.swift */; };
 		DF0FA7AE2615C04D00F21F75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA7AD2615C04D00F21F75 /* SceneDelegate.swift */; };
 		DF0FA7B02615C04D00F21F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA7AF2615C04D00F21F75 /* ViewController.swift */; };
 		DF0FA7B32615C04D00F21F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA7B12615C04D00F21F75 /* Main.storyboard */; };
 		DF0FA7B52615C05400F21F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA7B42615C05400F21F75 /* Assets.xcassets */; };
 		DF0FA7B82615C05400F21F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA7B62615C05400F21F75 /* LaunchScreen.storyboard */; };
+		DF0FA8442615C83300F21F75 /* DemoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA83E2615C83300F21F75 /* DemoListPresenter.swift */; };
+		DF0FA8452615C83300F21F75 /* DemoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA83F2615C83300F21F75 /* DemoListRouter.swift */; };
+		DF0FA8462615C83300F21F75 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA8402615C83300F21F75 /* DemoListViewController.swift */; };
+		DF0FA8472615C83300F21F75 /* DemoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA8412615C83300F21F75 /* DemoListInteractor.swift */; };
+		DF0FA8482615C83300F21F75 /* DemoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA8422615C83300F21F75 /* DemoListModel.swift */; };
+		DF0FA8492615C83300F21F75 /* DemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA8432615C83300F21F75 /* DemoListViewController.xib */; };
+		DF0FA84C2615C90900F21F75 /* APIDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA84B2615C90900F21F75 /* APIDriver.swift */; };
+		DF0FA85326160E6F00F21F75 /* HospitalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FA85226160E6F00F21F75 /* HospitalViewCell.swift */; };
+		DF0FA85726160ECF00F21F75 /* HospitalViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0FA85626160ECF00F21F75 /* HospitalViewCell.xib */; };
+		DF908BE82616F53900FC993F /* HospitalListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF908BE72616F53900FC993F /* HospitalListDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F89CEEE9ECC89B13CA5A661 /* Pods-DemoCleanSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCleanSwift.release.xcconfig"; path = "Target Support Files/Pods-DemoCleanSwift/Pods-DemoCleanSwift.release.xcconfig"; sourceTree = "<group>"; };
+		D0652F94127C3B85A35482F4 /* Pods-DemoCleanSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCleanSwift.debug.xcconfig"; path = "Target Support Files/Pods-DemoCleanSwift/Pods-DemoCleanSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0FA7A82615C04D00F21F75 /* DemoCleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0FA7AB2615C04D00F21F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF0FA7AD2615C04D00F21F75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		DF0FA7B42615C05400F21F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0FA7B72615C05400F21F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0FA7B92615C05400F21F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0FA83E2615C83300F21F75 /* DemoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListPresenter.swift; sourceTree = "<group>"; };
+		DF0FA83F2615C83300F21F75 /* DemoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListRouter.swift; sourceTree = "<group>"; };
+		DF0FA8402615C83300F21F75 /* DemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		DF0FA8412615C83300F21F75 /* DemoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListInteractor.swift; sourceTree = "<group>"; };
+		DF0FA8422615C83300F21F75 /* DemoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListModel.swift; sourceTree = "<group>"; };
+		DF0FA8432615C83300F21F75 /* DemoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoListViewController.xib; sourceTree = "<group>"; };
+		DF0FA84B2615C90900F21F75 /* APIDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDriver.swift; sourceTree = "<group>"; };
+		DF0FA85226160E6F00F21F75 /* HospitalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewCell.swift; sourceTree = "<group>"; };
+		DF0FA85626160ECF00F21F75 /* HospitalViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalViewCell.xib; sourceTree = "<group>"; };
+		DF908BE72616F53900FC993F /* HospitalListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListDataModel.swift; sourceTree = "<group>"; };
+		FC6A76B3A724237080E2412E /* Pods_DemoCleanSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCleanSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEA60AE332F9AA3966A1170 /* Pods_DemoCleanSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410124EF79A4854A94B619E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0652F94127C3B85A35482F4 /* Pods-DemoCleanSwift.debug.xcconfig */,
+				1F89CEEE9ECC89B13CA5A661 /* Pods-DemoCleanSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF145AFBE87FCF3790A5EE4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6A76B3A724237080E2412E /* Pods_DemoCleanSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF0FA79F2615C04D00F21F75 = {
 			isa = PBXGroup;
 			children = (
 				DF0FA7AA2615C04D00F21F75 /* DemoCleanSwift */,
 				DF0FA7A92615C04D00F21F75 /* Products */,
+				410124EF79A4854A94B619E7 /* Pods */,
+				BF145AFBE87FCF3790A5EE4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +100,8 @@
 		DF0FA7AA2615C04D00F21F75 /* DemoCleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DF908BE62616F4E600FC993F /* Model */,
+				DF0FA80B2615C28300F21F75 /* Scenes */,
 				DF0FA7AB2615C04D00F21F75 /* AppDelegate.swift */,
 				DF0FA7AD2615C04D00F21F75 /* SceneDelegate.swift */,
 				DF0FA7AF2615C04D00F21F75 /* ViewController.swift */,
@@ -63,8 +109,48 @@
 				DF0FA7B42615C05400F21F75 /* Assets.xcassets */,
 				DF0FA7B62615C05400F21F75 /* LaunchScreen.storyboard */,
 				DF0FA7B92615C05400F21F75 /* Info.plist */,
+				DF0FA84B2615C90900F21F75 /* APIDriver.swift */,
 			);
 			path = DemoCleanSwift;
+			sourceTree = "<group>";
+		};
+		DF0FA80B2615C28300F21F75 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FA80C2615C29500F21F75 /* ListView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DF0FA80C2615C29500F21F75 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FA85526160EAD00F21F75 /* Cell */,
+				DF0FA83E2615C83300F21F75 /* DemoListPresenter.swift */,
+				DF0FA83F2615C83300F21F75 /* DemoListRouter.swift */,
+				DF0FA8402615C83300F21F75 /* DemoListViewController.swift */,
+				DF0FA8412615C83300F21F75 /* DemoListInteractor.swift */,
+				DF0FA8422615C83300F21F75 /* DemoListModel.swift */,
+				DF0FA8432615C83300F21F75 /* DemoListViewController.xib */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		DF0FA85526160EAD00F21F75 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FA85226160E6F00F21F75 /* HospitalViewCell.swift */,
+				DF0FA85626160ECF00F21F75 /* HospitalViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DF908BE62616F4E600FC993F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF908BE72616F53900FC993F /* HospitalListDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF0FA7BC2615C05400F21F75 /* Build configuration list for PBXNativeTarget "DemoCleanSwift" */;
 			buildPhases = (
+				EEBBC2687B1B99383E15C9F2 /* [CP] Check Pods Manifest.lock */,
 				DF0FA7A42615C04D00F21F75 /* Sources */,
 				DF0FA7A52615C04D00F21F75 /* Frameworks */,
 				DF0FA7A62615C04D00F21F75 /* Resources */,
+				790D96886A0F06EEB861AC12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +213,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0FA7B82615C05400F21F75 /* LaunchScreen.storyboard in Resources */,
+				DF0FA85726160ECF00F21F75 /* HospitalViewCell.xib in Resources */,
 				DF0FA7B52615C05400F21F75 /* Assets.xcassets in Resources */,
 				DF0FA7B32615C04D00F21F75 /* Main.storyboard in Resources */,
+				DF0FA8492615C83300F21F75 /* DemoListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		790D96886A0F06EEB861AC12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCleanSwift/Pods-DemoCleanSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCleanSwift/Pods-DemoCleanSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoCleanSwift/Pods-DemoCleanSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBBC2687B1B99383E15C9F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCleanSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF0FA7A42615C04D00F21F75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0FA8482615C83300F21F75 /* DemoListModel.swift in Sources */,
 				DF0FA7B02615C04D00F21F75 /* ViewController.swift in Sources */,
+				DF0FA8452615C83300F21F75 /* DemoListRouter.swift in Sources */,
+				DF0FA84C2615C90900F21F75 /* APIDriver.swift in Sources */,
+				DF0FA8472615C83300F21F75 /* DemoListInteractor.swift in Sources */,
 				DF0FA7AC2615C04D00F21F75 /* AppDelegate.swift in Sources */,
 				DF0FA7AE2615C04D00F21F75 /* SceneDelegate.swift in Sources */,
+				DF0FA8442615C83300F21F75 /* DemoListPresenter.swift in Sources */,
+				DF0FA85326160E6F00F21F75 /* HospitalViewCell.swift in Sources */,
+				DF908BE82616F53900FC993F /* HospitalListDataModel.swift in Sources */,
+				DF0FA8462615C83300F21F75 /* DemoListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +423,7 @@
 		};
 		DF0FA7BD2615C05400F21F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0652F94127C3B85A35482F4 /* Pods-DemoCleanSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +442,7 @@
 		};
 		DF0FA7BE2615C05400F21F75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F89CEEE9ECC89B13CA5A661 /* Pods-DemoCleanSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
